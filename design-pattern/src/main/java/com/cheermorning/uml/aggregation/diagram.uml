@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="108.0" y="0.0">com.cheermorning.uml.aggregation.Monitor</node>
+    <node x="0.0" y="0.0">com.cheermorning.uml.aggregation.Mouse</node>
+    <node x="34.5" y="82.0">com.cheermorning.uml.aggregation.Computer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.cheermorning.uml.aggregation.Computer" target="com.cheermorning.uml.aggregation.Mouse">
+      <point x="-49.125" y="-40.0" />
+      <point x="50.875" y="57.0" />
+      <point x="22.0" y="57.0" />
+      <point x="-22.0" y="16.0" />
+    </edge>
+    <edge source="com.cheermorning.uml.aggregation.Computer" target="com.cheermorning.uml.aggregation.Monitor">
+      <point x="49.125" y="-40.0" />
+      <point x="149.125" y="57.0" />
+      <point x="186.0" y="57.0" />
+      <point x="26.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="106.0" y="81.0" />
+  <SelectedNodes>
+    <node>com.cheermorning.uml.aggregation.Monitor</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

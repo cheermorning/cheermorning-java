@@ -1,0 +1,25 @@
+package com.cheermorning.mode.behavior.mediator;
+
+//??????????
+public class Alarm extends Colleague {
+
+	//??????
+	public Alarm(Mediator mediator, String name) {
+		super(mediator, name);
+		// TODO Auto-generated constructor stub
+		//?????Alarm ??????????????????ConcreteMediator ??????[????]
+		mediator.Register(name, this);
+	}
+
+	public void SendAlarm(int stateChange) {
+		SendMessage(stateChange);
+	}
+
+	@Override
+	public void SendMessage(int stateChange) {
+		// TODO Auto-generated method stub
+		//??????н???????getMessage
+		this.GetMediator().GetMessage(stateChange, this.name);
+	}
+
+}
